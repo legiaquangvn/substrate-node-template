@@ -1,5 +1,5 @@
 [package]
-authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
+authors = ["Quang Le<legiaquangvn@yahoo.com>"]
 build = 'build.rs'
 description = 'A fresh FRAME-based Substrate node, ready for hacking.'
 edition = '2018'
@@ -23,6 +23,9 @@ jsonrpc-core = '15.1.0'
 structopt = '0.3.8'
 
 # Substrate dependencies
+# frame-xxx: substrate frames
+# sc-xxx: substrate cores, used by runtime
+# sp-xxx: substrate primitives, used by runtime
 frame-benchmarking = '3.1.0'
 frame-benchmarking-cli = '3.0.0'
 pallet-transaction-payment-rpc = '3.0.0'
